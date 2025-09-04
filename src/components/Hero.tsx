@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground-light">
             The Future of{" "}
-            <span className="bg-gradient-blue bg-clip-text text-transparent">
+            <span className="text-foreground-light border-b-4 border-brand-blue">
               Connected Living
             </span>
           </h1>

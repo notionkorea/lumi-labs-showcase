@@ -56,7 +56,7 @@ const ProductShowcase = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Revolutionary <span className="text-brand-blue">IoT Ecosystem</span>
+            Revolutionary <span className="border-b-4 border-brand-blue">IoT Ecosystem</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover our suite of intelligent devices designed to transform how you interact with technology.
@@ -80,8 +80,8 @@ const ProductShowcase = () => {
               
               <div className="p-8">
                 <div className="flex items-center mb-4">
-                  <div className="p-3 bg-gradient-blue rounded-xl mr-4">
-                    <product.icon className="h-6 w-6 text-white" />
+                  <div className="p-3 bg-foreground rounded-xl mr-4">
+                    <product.icon className="h-6 w-6 text-background" />
                   </div>
                   <h3 className="text-2xl font-bold text-foreground">{product.title}</h3>
                 </div>
@@ -111,9 +111,9 @@ const ProductShowcase = () => {
         {/* Highlights */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {highlights.map((highlight, index) => (
-            <div key={index} className="text-center p-8 rounded-2xl bg-gradient-dark">
-              <div className="inline-flex p-4 bg-gradient-blue rounded-2xl mb-6">
-                <highlight.icon className="h-8 w-8 text-white" />
+            <div key={index} className="text-center p-8 rounded-2xl bg-gradient-dark border border-muted">
+              <div className="inline-flex p-4 bg-foreground rounded-2xl mb-6">
+                <highlight.icon className="h-8 w-8 text-background" />
               </div>
               <h3 className="text-xl font-bold text-foreground-light mb-3">{highlight.title}</h3>
               <p className="text-muted-foreground">{highlight.description}</p>
