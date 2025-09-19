@@ -1,189 +1,189 @@
-# Lumi Labs - IoT Company
+# Lumi Labs - IoT 회사
 
-A modern, responsive website for **Lumi Labs**, an IoT company specializing in intelligent connected devices. This project serves as a demonstration for Notion's GitHub Integration features, allowing seamless syncing of Issues and Pull Requests.
+**Lumi Labs**의 현대적이고 반응형 웹사이트입니다. 지능형 연결 장치를 전문으로 하는 IoT 회사입니다. 이 프로젝트는 Notion의 GitHub 통합 기능 시연을 위해 사용되며, 이슈와 풀 리퀘스트의 원활한 동기화를 지원합니다.
 
-## 🏢 About Lumi Labs
+## 🏢 Lumi Labs 소개
 
-Lumi Labs is a cutting-edge IoT company that creates intelligent devices for connected living:
+Lumi Labs는 연결된 생활을 위한 지능형 장치를 개발하는 최첨단 IoT 회사입니다:
 
-- **Mobile Devices** - Next-generation smartphones with AI-powered features and seamless connectivity
-- **Smart Watches** - Advanced wearables with health monitoring and GPS tracking
-- **AI Speakers** - Intelligent voice assistants that adapt to your lifestyle
+- **모바일 기기** - AI 기반 기능과 원활한 연결성을 갖춘 차세대 스마트폰
+- **스마트워치** - 건강 모니터링과 GPS 추적 기능을 갖춘 고급 웨어러블 기기
+- **AI 스피커** - 사용자의 라이프스타일에 적응하는 지능형 음성 어시스턴트
 
-### Company Highlights
-- 50M+ devices connected worldwide
-- Serving 120+ countries
-- 99.9% uptime reliability
-- Enterprise-grade security
-- AI-powered features across all products
+### 회사 주요 성과
+- 전 세계 50M+ 기기 연결
+- 120+ 개국 서비스 제공
+- 99.9% 가동 시간 안정성
+- 엔터프라이즈급 보안
+- 모든 제품에 AI 기반 기능 탑재
 
-## 🎯 Project Purpose
+## 🎯 프로젝트 목적
 
-This project is designed for **Notion - GitHub Integration practice** by a Technical Architect at Notion. It provides a codebase for testing and demonstrating:
+이 프로젝트는 Notion의 기술 설계자가 **Notion - GitHub 통합 실습**을 위해 설계되었습니다. 다음과 같은 기능을 테스트하고 시연하기 위한 코드베이스를 제공합니다:
 
-- Issue tracking and management
-- Pull request workflows
-- Code review processes
-- Project documentation sync
-- GitHub integration features
+- 이슈 추적 및 관리
+- 풀 리퀘스트 워크플로우
+- 코드 리뷰 프로세스
+- 프로젝트 문서 동기화
+- GitHub 통합 기능
 
-## 🛠️ Technology Stack
+## 🛠️ 기술 스택
 
-### Frontend Framework
-- **React 18.3.1** - Modern React with hooks and functional components
-- **TypeScript** - Type-safe development
-- **Vite** - Fast build tool and development server
+### 프론트엔드 프레임워크
+- **React 18.3.1** - 훅과 함수형 컴포넌트를 사용하는 현대적인 React
+- **TypeScript** - 타입 안전 개발
+- **Vite** - 빠른 빌드 도구 및 개발 서버
 
-### Styling & UI
-- **Tailwind CSS** - Utility-first CSS framework
-- **shadcn/ui** - High-quality, accessible React components
-- **Radix UI** - Primitive UI components for building design systems
-- **Lucide React** - Beautiful & consistent icon set
+### 스타일링 & UI
+- **Tailwind CSS** - 유틸리티 우선 CSS 프레임워크
+- **shadcn/ui** - 고품질의 접근 가능한 React 컴포넌트
+- **Radix UI** - 디자인 시스템 구축을 위한 기본 UI 컴포넌트
+- **Lucide React** - 아름답고 일관된 아이콘 세트
 
-### State Management & Routing
-- **React Router DOM** - Client-side routing
-- **TanStack React Query** - Data fetching and caching
-- **React Hook Form** - Form state management
+### 상태 관리 & 라우팅
+- **React Router DOM** - 클라이언트 사이드 라우팅
+- **TanStack React Query** - 데이터 페칭 및 캐싱
+- **React Hook Form** - 폼 상태 관리
 
-### Development Tools
-- **ESLint** - Code linting and formatting
-- **TypeScript ESLint** - TypeScript-specific linting rules
-- **Autoprefixer** - CSS vendor prefixing
-- **PostCSS** - CSS processing
+### 개발 도구
+- **ESLint** - 코드 린팅 및 포매팅
+- **TypeScript ESLint** - TypeScript 전용 린팅 규칙
+- **Autoprefixer** - CSS 벤더 프리픽싱
+- **PostCSS** - CSS 프로세싱
 
-## 🚀 Getting Started
+## 🚀 시작하기
 
-### Prerequisites
+### 사전 요구사항
 
-- **Node.js** (v16 or higher) - [Install with nvm](https://github.com/nvm-sh/nvm)
-- **npm** or **yarn** package manager
+- **Node.js** (v16 이상) - [nvm으로 설치](https://github.com/nvm-sh/nvm)
+- **npm** 또는 **yarn** 패키지 매니저
 
-### Installation
+### 설치 방법
 
-1. **Clone the repository**
+1. **저장소 클론**
    ```bash
    git clone <repository-url>
    cd lumi-labs-showcase
    ```
 
-2. **Install dependencies**
+2. **의존성 설치**
    ```bash
    npm install
-   # or
+   # 또는
    yarn install
    ```
 
-3. **Start the development server**
+3. **개발 서버 시작**
    ```bash
    npm run dev
-   # or
+   # 또는
    yarn dev
    ```
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173` to view the application
+4. **브라우저에서 확인**
+   `http://localhost:5173`으로 이동하여 애플리케이션을 확인하세요
 
-### Available Scripts
+### 사용 가능한 스크립트
 
-- `npm run dev` - Start development server with hot reload
-- `npm run build` - Build for production
-- `npm run build:dev` - Build in development mode
-- `npm run lint` - Run ESLint for code quality checks
-- `npm run preview` - Preview production build locally
+- `npm run dev` - 핫 리로드로 개발 서버 시작
+- `npm run build` - 프로덕션용 빌드
+- `npm run build:dev` - 개발 모드로 빌드
+- `npm run lint` - 코드 품질 검사를 위한 ESLint 실행
+- `npm run preview` - 프로덕션 빌드를 로컬에서 미리보기
 
-## 📁 Project Structure
+## 📁 프로젝트 구조
 
 ```
 src/
-├── assets/                 # Static assets (images, icons)
-│   ├── hero-bg.jpg        # Hero section background
-│   ├── mobile-device.jpg  # Product showcase images
+├── assets/                 # 정적 자산 (이미지, 아이콘)
+│   ├── hero-bg.jpg        # 히어로 섹션 배경
+│   ├── mobile-device.jpg  # 제품 쇼케이스 이미지
 │   ├── smartwatch.jpg
 │   └── ai-speaker.jpg
-├── components/            # React components
-│   ├── ui/               # shadcn/ui components
-│   ├── Navigation.tsx    # Main navigation bar
-│   ├── Hero.tsx          # Hero section with company intro
-│   ├── ProductShowcase.tsx # Product grid and highlights
-│   └── Footer.tsx        # Footer with contact info
-├── hooks/                # Custom React hooks
-├── lib/                  # Utility functions
-├── pages/                # Page components
-│   ├── Index.tsx         # Main landing page
-│   └── NotFound.tsx      # 404 error page
-└── main.tsx             # Application entry point
+├── components/            # React 컴포넌트
+│   ├── ui/               # shadcn/ui 컴포넌트
+│   ├── Navigation.tsx    # 메인 네비게이션 바
+│   ├── Hero.tsx          # 회사 소개가 포함된 히어로 섹션
+│   ├── ProductShowcase.tsx # 제품 그리드 및 하이라이트
+│   └── Footer.tsx        # 연락처 정보가 포함된 푸터
+├── hooks/                # 커스텀 React 훅
+├── lib/                  # 유틸리티 함수
+├── pages/                # 페이지 컴포넌트
+│   ├── Index.tsx         # 메인 랜딩 페이지
+│   └── NotFound.tsx      # 404 에러 페이지
+└── main.tsx             # 애플리케이션 진입점
 ```
 
-## 🎨 Design System
+## 🎨 디자인 시스템
 
-### Color Scheme
-- **Brand Blue** - Primary brand color for accents and CTAs
-- **Gradient Hero** - Hero section background gradient
-- **Background Dark** - Dark theme backgrounds
-- **Muted Foreground** - Secondary text colors
+### 색상 스키마
+- **브랜드 블루** - 강조 표시 및 CTA를 위한 기본 브랜드 색상
+- **그라디언트 히어로** - 히어로 섹션 배경 그라디언트
+- **배경 다크** - 다크 테마 배경
+- **음소거된 전경** - 보조 텍스트 색상
 
-### Components
-- **Navigation** - Responsive navbar with mobile menu
-- **Hero Section** - Full-screen intro with company stats
-- **Product Showcase** - Interactive product cards with hover effects
-- **Footer** - Comprehensive footer with social links and contact info
+### 컴포넌트
+- **네비게이션** - 모바일 메뉴가 포함된 반응형 네비게이션 바
+- **히어로 섹션** - 회사 통계가 포함된 전체 화면 소개
+- **제품 쇼케이스** - 호버 효과가 있는 인터랙티브 제품 카드
+- **푸터** - 소셜 링크와 연락처 정보가 포함된 종합 푸터
 
-### Responsive Design
-- Mobile-first approach with Tailwind CSS
-- Breakpoints: `sm` (640px), `md` (768px), `lg` (1024px), `xl` (1280px)
-- Touch-friendly interactive elements
+### 반응형 디자인
+- Tailwind CSS를 사용한 모바일 우선 접근법
+- 브레이크포인트: `sm` (640px), `md` (768px), `lg` (1024px), `xl` (1280px)
+- 터치 친화적인 인터랙티브 요소
 
-## 🔧 Development Guidelines
+## 🔧 개발 가이드라인
 
-### Code Quality
-- **TypeScript** - All components are fully typed
-- **ESLint** - Enforces consistent code style
-- **Component Structure** - Functional components with hooks
-- **Accessibility** - ARIA labels and semantic HTML
+### 코드 품질
+- **TypeScript** - 모든 컴포넌트가 완전히 타입화됨
+- **ESLint** - 일관된 코드 스타일 적용
+- **컴포넌트 구조** - 훅을 사용하는 함수형 컴포넌트
+- **접근성** - ARIA 레이블 및 시맨틱 HTML
 
-### Best Practices
-- Responsive design patterns
-- Performance optimized images
-- SEO-friendly structure
-- Modern React patterns (hooks, context)
+### 모범 사례
+- 반응형 디자인 패턴
+- 성능 최적화된 이미지
+- SEO 친화적 구조
+- 현대적인 React 패턴 (훅, 컨텍스트)
 
-## 🚢 Deployment
+## 🚢 배포
 
-### Production Build
+### 프로덕션 빌드
 ```bash
 npm run build
 ```
 
-### Preview Production Build
+### 프로덕션 빌드 미리보기
 ```bash
 npm run preview
 ```
 
-The build output will be in the `dist/` directory, ready for deployment to any static hosting service.
+빌드 결과물은 `dist/` 디렉토리에 생성되며, 모든 정적 호스팅 서비스에 배포할 수 있습니다.
 
-## 🤝 Contributing
+## 🤝 기여하기
 
-This project is designed for Notion's GitHub Integration testing. When contributing:
+이 프로젝트는 Notion의 GitHub 통합 테스트를 위해 설계되었습니다. 기여할 때:
 
-1. **Create feature branches** for new functionality
-2. **Write descriptive commit messages** for clear history
-3. **Open Pull Requests** with detailed descriptions
-4. **Link Issues** to track feature requests and bugs
-5. **Use GitHub Projects** for task organization
+1. **새로운 기능을 위한 피처 브랜치 생성**
+2. **명확한 히스토리를 위한 설명적인 커밋 메시지 작성**
+3. **상세한 설명이 포함된 풀 리퀘스트 열기**
+4. **기능 요청 및 버그 추적을 위한 이슈 연결**
+5. **작업 조직화를 위한 GitHub 프로젝트 사용**
 
-## 📄 License
+## 📄 라이선스
 
-This project is intended for educational and demonstration purposes as part of Notion's GitHub Integration practice.
+이 프로젝트는 Notion의 GitHub 통합 실습의 일환으로 교육 및 시연 목적으로 제작되었습니다.
 
 ---
 
-## Disclaimer
-*This README serves as comprehensive documentation for the Lumi Labs project, designed specifically for Notion's GitHub Integration practice and testing.*
+## 면책 조항
+*이 README는 Notion의 GitHub 통합 실습 및 테스트를 위해 특별히 설계된 Lumi Labs 프로젝트의 종합적인 문서 역할을 합니다.*
 
-### 📞 Contact & Support
+### 📞 연락처 및 지원
 
-For questions about this demonstration project:
+이 시연 프로젝트에 대한 문의사항:
 
-- **Technical Architect**: Notion Team
-- **Purpose**: GitHub Integration Practice
-- **Company**: Lumi Labs (IoT Company)
+- **기술 설계자**: Notion 팀
+- **목적**: GitHub 통합 실습
+- **회사**: Lumi Labs (IoT 회사)
