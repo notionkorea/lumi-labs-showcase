@@ -1,73 +1,189 @@
-# Welcome to your Lovable project
+# Lumi Labs - IoT Company
 
-## Project info
+A modern, responsive website for **Lumi Labs**, an IoT company specializing in intelligent connected devices. This project serves as a demonstration for Notion's GitHub Integration features, allowing seamless syncing of Issues and Pull Requests.
 
-**URL**: https://lovable.dev/projects/d20ea66b-e85d-4751-a9ea-2a388a6d590d
+## 🏢 About Lumi Labs
 
-## How can I edit this code?
+Lumi Labs is a cutting-edge IoT company that creates intelligent devices for connected living:
 
-There are several ways of editing your application.
+- **Mobile Devices** - Next-generation smartphones with AI-powered features and seamless connectivity
+- **Smart Watches** - Advanced wearables with health monitoring and GPS tracking
+- **AI Speakers** - Intelligent voice assistants that adapt to your lifestyle
 
-**Use Lovable**
+### Company Highlights
+- 50M+ devices connected worldwide
+- Serving 120+ countries
+- 99.9% uptime reliability
+- Enterprise-grade security
+- AI-powered features across all products
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d20ea66b-e85d-4751-a9ea-2a388a6d590d) and start prompting.
+## 🎯 Project Purpose
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is designed for **Notion - GitHub Integration practice** by a Technical Architect at Notion. It provides a codebase for testing and demonstrating:
 
-**Use your preferred IDE**
+- Issue tracking and management
+- Pull request workflows
+- Code review processes
+- Project documentation sync
+- GitHub integration features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Technology Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend Framework
+- **React 18.3.1** - Modern React with hooks and functional components
+- **TypeScript** - Type-safe development
+- **Vite** - Fast build tool and development server
 
-Follow these steps:
+### Styling & UI
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality, accessible React components
+- **Radix UI** - Primitive UI components for building design systems
+- **Lucide React** - Beautiful & consistent icon set
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### State Management & Routing
+- **React Router DOM** - Client-side routing
+- **TanStack React Query** - Data fetching and caching
+- **React Hook Form** - Form state management
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Development Tools
+- **ESLint** - Code linting and formatting
+- **TypeScript ESLint** - TypeScript-specific linting rules
+- **Autoprefixer** - CSS vendor prefixing
+- **PostCSS** - CSS processing
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Prerequisites
+
+- **Node.js** (v16 or higher) - [Install with nvm](https://github.com/nvm-sh/nvm)
+- **npm** or **yarn** package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd lumi-labs-showcase
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application
+
+### Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run lint` - Run ESLint for code quality checks
+- `npm run preview` - Preview production build locally
+
+## 📁 Project Structure
+
+```
+src/
+├── assets/                 # Static assets (images, icons)
+│   ├── hero-bg.jpg        # Hero section background
+│   ├── mobile-device.jpg  # Product showcase images
+│   ├── smartwatch.jpg
+│   └── ai-speaker.jpg
+├── components/            # React components
+│   ├── ui/               # shadcn/ui components
+│   ├── Navigation.tsx    # Main navigation bar
+│   ├── Hero.tsx          # Hero section with company intro
+│   ├── ProductShowcase.tsx # Product grid and highlights
+│   └── Footer.tsx        # Footer with contact info
+├── hooks/                # Custom React hooks
+├── lib/                  # Utility functions
+├── pages/                # Page components
+│   ├── Index.tsx         # Main landing page
+│   └── NotFound.tsx      # 404 error page
+└── main.tsx             # Application entry point
 ```
 
-**Edit a file directly in GitHub**
+## 🎨 Design System
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Color Scheme
+- **Brand Blue** - Primary brand color for accents and CTAs
+- **Gradient Hero** - Hero section background gradient
+- **Background Dark** - Dark theme backgrounds
+- **Muted Foreground** - Secondary text colors
 
-**Use GitHub Codespaces**
+### Components
+- **Navigation** - Responsive navbar with mobile menu
+- **Hero Section** - Full-screen intro with company stats
+- **Product Showcase** - Interactive product cards with hover effects
+- **Footer** - Comprehensive footer with social links and contact info
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Responsive Design
+- Mobile-first approach with Tailwind CSS
+- Breakpoints: `sm` (640px), `md` (768px), `lg` (1024px), `xl` (1280px)
+- Touch-friendly interactive elements
 
-## What technologies are used for this project?
+## 🔧 Development Guidelines
 
-This project is built with:
+### Code Quality
+- **TypeScript** - All components are fully typed
+- **ESLint** - Enforces consistent code style
+- **Component Structure** - Functional components with hooks
+- **Accessibility** - ARIA labels and semantic HTML
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Best Practices
+- Responsive design patterns
+- Performance optimized images
+- SEO-friendly structure
+- Modern React patterns (hooks, context)
 
-## How can I deploy this project?
+## 🚢 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/d20ea66b-e85d-4751-a9ea-2a388a6d590d) and click on Share -> Publish.
+### Production Build
+```bash
+npm run build
+```
 
-## Can I connect a custom domain to my Lovable project?
+### Preview Production Build
+```bash
+npm run preview
+```
 
-Yes, you can!
+The build output will be in the `dist/` directory, ready for deployment to any static hosting service.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🤝 Contributing
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is designed for Notion's GitHub Integration testing. When contributing:
+
+1. **Create feature branches** for new functionality
+2. **Write descriptive commit messages** for clear history
+3. **Open Pull Requests** with detailed descriptions
+4. **Link Issues** to track feature requests and bugs
+5. **Use GitHub Projects** for task organization
+
+## 📄 License
+
+This project is intended for educational and demonstration purposes as part of Notion's GitHub Integration practice.
+
+---
+
+## Disclaimer
+*This README serves as comprehensive documentation for the Lumi Labs project, designed specifically for Notion's GitHub Integration practice and testing.*
+
+### 📞 Contact & Support
+
+For questions about this demonstration project:
+
+- **Technical Architect**: Notion Team
+- **Purpose**: GitHub Integration Practice
+- **Company**: Lumi Labs (IoT Company)
